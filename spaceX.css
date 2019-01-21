@@ -5,16 +5,18 @@
 }
 body {
     font-family: sans-serif;
+    background-image: url(./assets/space.jpeg);
+    background-size: cover;
   }
   
   .wrapper {
     width: 80%;
     margin: 0 auto;
-    display: flex;
+    /* display: flex; */
   }
   
   .controls, .results {
-    flex: 1;
+    /* flex: 1; */
     padding: 10px;
   }
   
@@ -24,6 +26,10 @@ body {
   
   h1 {
     text-align: center;
+    font-family: 'Fugaz One', cursive;
+    font-size: 100px;
+    color: yellow;
+    text-shadow: 5px 5px blue;
   }
   
   h2 {
@@ -44,32 +50,7 @@ body {
     margin-bottom: 50px;
   }
   
-  .prev {
-    float: left;
-  }
-  
-  .next {
-    float: right;
-  }
-  
-  article {
-    padding: 10px;
-    margin-bottom: 20px;
-    background-color: #ddd;
-    border: 1px solid #ccc;
-  }
-  
   img {
     margin-left: 20px;
   
-  }
-  
-  .clearfix {
-    clear: both;
-  }
-  
-  span {
-    background-color: #ccc;
-    padding: 5px;
-    margin: 5px;
   }

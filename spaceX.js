@@ -50,7 +50,7 @@ function displayResults(json) {
 
     spaceShips.appendChild(r)
     spaceShips.appendChild(cost_per_launch)
-    spaceShips.appendChild(wiki)
+    spaceShips.appendChild(wiki).style="color:white;"
     spaceShips.appendChild(img)
     Results.appendChild(spaceShips)
 
